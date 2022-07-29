@@ -1,0 +1,30 @@
+<div class="container bg-primary">
+  <div>
+    <h1 class="text-center">Productos</h1>
+  </div>
+  <ul class="row">
+    <li class="text-center col-4 bg-white">Nombre</li>
+    <li class="text-center col-4 bg-white">Precio</li>
+    <li class="text-center col-4 bg-white">Imagen</li>
+  </ul>
+  {{#if listVoid}}
+    <h2>No existen productos</h2>
+  {{else}}
+
+    {{#each products}}
+      <ul class="row">
+        <li class="text-center col-4">{{this.name}}</li>
+        <li class="text-center col-4">$ {{this.price}}</li>
+        <li class="text-center col-4">
+          <img
+            src="http://localhost:8080/img/{{this.img}}"
+            alt="product image"
+            style="width: 70px;"
+          />
+        </li>
+      </ul>
+    {{/each}}
+
+  {{/if}}
+
+</div>

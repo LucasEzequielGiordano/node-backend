@@ -1,0 +1,26 @@
+[
+	{
+		"name": "rocklets",
+		"price": 200,
+		"img": "rocklets.webp",
+		"id": 1
+	},
+	{
+		"name": "Chocolate Aguila",
+		"price": 500,
+		"img": "aguila.png",
+		"id": 2
+	},
+	{
+		"name": "Cadbury Frutilla",
+		"price": 350,
+		"img": "cadburyy.webp",
+		"id": 3
+	},
+	{
+		"name": "guaymallen",
+		"price": "250",
+		"img": "1659053279546-guaymallen.png",
+		"id": 4
+	}
+]
